@@ -2,8 +2,8 @@ import React from "react";
 
 const CustomerSection = () => {
   return (
-    <div className="mt-[2.5rem] h-[39.3125rem]">
-      <div className="w-[66.625rem] h-[7.8125rem] m-auto">
+    <div className="mt-[2.5rem]">
+      <div className="container w-[66.625rem] h-[7.8125rem] m-auto">
         <h1 className="text-center text-[2.25rem] leading-[3.6rem] font-bold font-poppins text-[#000000]">
           Our Satisfied Customer
         </h1>
@@ -13,7 +13,7 @@ const CustomerSection = () => {
           and typesetting industry. Lorem Ipsum
         </p>
       </div>
-      <div className="mt-[1.5rem] w-[79.5rem] flex justify-evenly items-center m-auto">
+      <div className="container mt-[1.5rem] flex flex-wrap justify-evenly items-center m-auto">
         <div className="h-[24.625rem]">
           <div className="w-[18.75rem] shadow-md h-[25rem]">
             <img

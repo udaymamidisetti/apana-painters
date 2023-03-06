@@ -2,7 +2,7 @@ import React from "react";
 
 const ReviewsSection = () => {
   return (
-    <div className="h-[28.125rem]">
+    <div className="h-[28.125rem] mt-[5.3125rem]">
       <div className="w-[66.625rem] h-[7.8125rem] m-auto">
         <h1 className="text-center text-[2.25rem] leading-[3.6rem] font-bold font-poppins text-[#000000]">
           Customer Reviews
@@ -13,7 +13,7 @@ const ReviewsSection = () => {
           and typesetting industry. Lorem Ipsum
         </p>
       </div>
-      <div className="mt-[1.78625rem] w-[73.625rem] h-[13.375rem] m-auto">
+      <div className="mt-[1.78625rem] w-[73.625rem] h-[13.375rem] m-auto overflow-scroll scroll-smooth">
         <div className="flex justify-between">
           <div className="w-[35rem] h-[9.35875rem]  p-[0.63rem] flex items-start">
             <img
@@ -21,15 +21,36 @@ const ReviewsSection = () => {
               src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677065674/Ellipse_8_utvo0w.svg"
               alt=""
             />
-            <div>
+            <div className="">
               <h1 className="text-xl font-medium font-poppins w-[9rem] h-[2.19rem] leading-[1.41rem] w-[9rem] h-[2.19rem]  p-[0.63rem] box-border items-center">
                 Dhanish Kale
               </h1>
-              <p className="text-[1.375rem] font-medium font-poppins h-[2.19rem] text-[0.88rem] leading-[1.41rem] rounded-2xxs p-[0.63rem] box-border ">
+              <p className="text-[1rem] font-medium font-poppins h-[2.19rem] text-[0.88rem] leading-6 rounded-2xxs p-[0.63rem] box-border ">
                 Feb 10 2023
               </p>
-              <img src="" alt="" />
-              <p className="p-[0.63rem] font-poppins text-[1rem] leading-[1.41rem] text-left  w-[30.1rem] h-[3.67rem]">
+              <div className="flex p-[0.63rem]">
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+              </div>
+              <p className="pl-[0.63rem] font-poppins text-[1rem] leading-[1.41rem] text-left  w-[30.1rem] h-[3.67rem]">
                 is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's
               </p>
@@ -45,11 +66,33 @@ const ReviewsSection = () => {
               <h1 className="text-xl font-medium font-poppins w-[9rem] h-[2.19rem] leading-[1.41rem] w-[9rem] h-[2.19rem]  p-[0.63rem] box-border items-center">
                 Dhanish Kale
               </h1>
-              <p className="text-[1.375rem] font-medium font-poppins h-[2.19rem] text-[0.88rem] leading-[1.41rem] rounded-2xxs p-[0.63rem] box-border ">
+              <p className="text-[1rem] font-medium font-poppins h-[2.19rem] text-[0.88rem] leading-6 rounded-2xxs p-[0.63rem] box-border ">
                 Feb 10 2023
               </p>
+              <div className="flex p-[0.63rem]">
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+                <img
+                  src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1677215569/star-fill_bqlmcj.png"
+                  alt=""
+                />
+              </div>
               <img src="" alt="" />
-              <p className="p-[0.63rem] font-poppins text-[1rem] leading-[1.41rem] text-left  w-[30.1rem] h-[3.67rem]">
+              <p className="pl-[0.63rem] font-poppins text-[1rem] leading-[1.41rem] text-left  w-[30.1rem] h-[3.67rem]">
                 is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's
               </p>

@@ -3,7 +3,7 @@ import React from "react";
 const BookSection = () => {
   return (
     <div
-      className="bg-cover h-[38.125rem] font-poppins flex justify-evenly items-center"
+      className=" bg-cover h-[38.125rem] font-poppins flex justify-evenly items-center"
       style={{
         backgroundImage:
           "url(https://res.cloudinary.com/drjnmxyd5/image/upload/v1677001698/pexels-rachel-claire-4846106_1_dthqhs.png)",
@@ -57,7 +57,7 @@ const BookSection = () => {
             <div className=" leading-[3.6rem] font-medium">Submit</div>
           </div>
         </div> */}
-      <div className="flex flex-col justify-center items-center bg-white rounded-3xl shadow-[8px_8px_65px_rgba(0,_0,_0,_0.25)]  w-[31.25rem] h-[29.5rem]">
+      <div className=" flex flex-col justify-center items-center bg-white rounded-3xl shadow-[8px_8px_65px_rgba(0,_0,_0,_0.25)]  w-[31.25rem] h-[29.5rem]">
         <input
           className="text-[#000000B2] mb-[1rem] text-[1rem] py-[0.69rem] px-[0.94rem] rounded-md leading-[3.6rem] flex items-center rounded-2xxs box-border w-[24.13rem] h-[2.5rem] border-[1px] border-solid border-gray-900 focus:outline-0"
           placeholder="Enter Full Name"
@@ -72,7 +72,7 @@ const BookSection = () => {
               type="text"
               name="company-website"
               id="company-website"
-              className="text-[#000000B2] text-[1rem] px-[0.94rem]  border block w-full flex-1 rounded-none rounded-r-md border-gray-900 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm font-poppins"
+              className="text-[#000000B2] text-[1rem] px-[0.94rem]  border block w-full flex-1 rounded-none rounded-r-md border-gray-900 sm:text-sm font-poppins focus:outline-0"
               placeholder="Enter Whatsapp Number"
             />
           </div>
@@ -89,7 +89,7 @@ const BookSection = () => {
             autoComplete="country-name"
             className="text-[#000000B2] text-[1rem] mt-1 block w-[24.13rem] h-[2.5rem] rounded-md border border-gray-900 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
           >
-            <option className="text-[#000000B2]">United States</option>
+            <option className="text-[#000000B2]">Select City</option>
             <option>Canada</option>
             <option>Mexico</option>
           </select>

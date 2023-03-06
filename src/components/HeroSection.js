@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -9,13 +10,26 @@ const HeroSection = () => {
           "url(https://res.cloudinary.com/drjnmxyd5/image/upload/v1676980724/pexels-huseyn-kamaladdin-667838_1_kt8nll.jpg)",
       }}
     >
-      <div className="w-[79.125rem] h-[13.875rem] flex items-center justify-center">
+      <div className="max-w-[79.125rem] h-[13.875rem] overflow-scroll scroll-smooth">
         <h1
-          className="text-[3.625rem] font-poppins text-white font-bold text-center"
+          className="h-[14.375rem] text-[3.625rem] font-poppins text-white font-bold text-center "
           style={{ color: "#E3E1E1" }}
         >
           Elevate Your Space with Professional
           <br /> Painting Services
+        </h1>
+        <h1
+          className="h-[14.375rem] text-[3.625rem] font-poppins text-white font-bold text-center "
+          style={{ color: "#E3E1E1" }}
+        >
+          Expert Painters for Your Home or Business
+        </h1>
+        <h1
+          className="h-[14.375rem] text-[3.625rem] font-poppins text-white font-bold text-center "
+          style={{ color: "#E3E1E1" }}
+        >
+          From Concept to Completion, We've Got <br />
+          You Covered
         </h1>
       </div>
       <div>
@@ -28,15 +42,17 @@ const HeroSection = () => {
         >
           Equire Now
         </button>
-        <button
-          className="w-[12.5rem] h-[3.4375rem] rounded-md leading-6 text-[1.375rem] font-poppins ml-[0.955rem]"
-          style={{
-            background: "linear-gradient(135deg, #97ABFF 0%, #123597 100%)",
-            color: "white",
-          }}
-        >
-          Registration
-        </button>
+        <Link to="/registration">
+          <button
+            className="w-[12.5rem] h-[3.4375rem] rounded-md leading-6 text-[1.375rem] font-poppins ml-[0.955rem]"
+            style={{
+              background: "linear-gradient(135deg, #97ABFF 0%, #123597 100%)",
+              color: "white",
+            }}
+          >
+            Registration
+          </button>
+        </Link>
       </div>
       <div
         className="w-[10rem] h-[3.1875rem] flex items-center justify-center mt-[8.21875rem]"
